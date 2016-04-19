@@ -17,6 +17,7 @@ pngs: $(PNG_FILES)
 variables:
 	@echo TXT_FILES: $(TXT_FILES)
 	@echo DAT_FILES: $(DAT_FILES)
+	@echo PNG_FILES: $(PNG_FILES)
 
 # count words
 %.dat: books/%.txt $(COUNT_SCRIPT)
